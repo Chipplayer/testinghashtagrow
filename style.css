@@ -1,0 +1,420 @@
+/* Css */
+@import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand');
+
+@import url('https://fonts.googleapis.com/css?family=DM+Sans|Josefin+Sans&display=swap');
+
+
+
+
+
+
+/* Full Body Section */
+
+section.section.is-fullheight{
+  padding-top:0px;
+}
+
+
+/* Navbar */
+
+div.navbar-brand .navbar-item.logo{
+    color:#263238;
+  }
+
+
+hr{
+  margin-top:10px;
+}
+
+nav.navbar{
+  padding-left:65px;
+  padding-right:65px;
+  margin-top:10px;
+
+
+}
+
+@media screen and (max-width: 1023px) {
+ nav.navbar {
+    position: sticky;
+    top:0px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:5px;
+ 
+  }
+}
+
+div.navbar-item.has-dropdown.is-hoverable{
+  display:none;
+}
+
+
+@media screen and (max-width: 1023px) {
+  div.navbar-item.has-dropdown.is-hoverable {
+    display: inline;
+    
+  }
+}
+
+a.navbar-item{
+  font-family: 'DM sans', sans-serif;
+  font-weight:bold;
+  font-size: 17px;
+  
+}
+
+a.navbar-item.gradient:hover{
+  background: #FF416C;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(45deg, #FF4B2B, #FF416C);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(45deg, #FF4B2B, #FF416C);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ font-weight:bold;
+ color:#ffffff;
+ 
+}
+
+ a.navbar-item p{
+   font-family: 'Josefin sans', sans-serif;
+  font-weight: bold;
+  font-size: 33px;
+  
+
+  }
+
+  div.navbar-burger.burger{
+    margin-top:5px;
+  }
+
+/*  Aside Menu  */
+
+@media screen and (max-width: 1023px) {
+    div.columns .column.asidenav{
+      display: none;
+    }
+  }
+
+  aside{
+    font-family: 'Josefin sans', sans-serif;
+    font-weight: bold;
+    
+  }
+
+
+ 
+
+
+  /* Columns */
+
+  
+
+
+
+  div.columns{
+    margin-top: 20px;
+  }
+
+  div.columns h1{
+    font-family: 'Josefin sans', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color:#394359;
+  }
+
+  @media only screen and (max-width: 660px) {
+    div.columns h1 {
+      font-size: 5.5vw;
+    }
+  }
+
+  
+
+
+  div.column p.notes{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    border-left:3px solid #F8B500;
+    background-color: #F9FD50;
+    color:black;
+    
+  }
+
+  @media only screen and (max-width: 660px) {
+    div.columns p.notes {
+      font-size: 4vw;
+    }
+  }
+
+
+
+  /* List Hover */
+
+
+  aside ul.menu-list a:hover {
+    background: #FF416C;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #FF4B2B, #FF416C);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #FF4B2B, #FF416C);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    color:#ffffff;
+   
+   
+  }
+
+  aside ul.menu-list .activemenu a{
+    background: #FF416C;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #FF4B2B, #FF416C);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #FF4B2B, #FF416C);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    color:#ffffff;
+   
+  }
+
+/* Hashpanels*/
+
+div.column .hashpanel{
+  text-align: right;
+}
+
+  /* /////////////////////////   Buttons  /////////////////////*/
+
+  div.column button.btn.skypanel{
+    border-radius: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background-color: #40C4FF;
+    border:0px;
+    color:#ffffff;
+    margin-top:5px;
+    margin-bottom:50px;
+  }
+  
+  div.column button.btn:hover{
+   border:0px;
+  }
+
+
+
+
+
+  div.column button.btn.greenpanel{
+    border-radius: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background-color: #00C853;
+    border:0px;
+    color:#ffffff;
+    margin-top:5px;
+    margin-bottom:50px;
+  }
+  
+  div.column button.btn:hover{
+   border:0px;
+  }
+
+
+
+
+
+
+
+  div.column button.btn.redpanel{
+    border-radius: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background-color: #FF1744;
+    border:0px;
+    color:#ffffff;
+    margin-top:5px;
+    margin-bottom:50px;
+  }
+  
+  div.column button.btn:hover{
+   border:0px;
+  }
+
+
+
+
+
+  div.column button.btn{
+    border-radius: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background-color: #2962FF;
+    border:0px;
+    color:#ffffff;
+    margin-top:5px;
+    margin-bottom:50px;
+  }
+  
+  div.column button.btn:hover{
+   border:0px;
+  }
+
+  /*  CATS   */
+  div.column button.btn.yellowpanel{
+    border-radius: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    background-color: #FAA613;
+    border:0px;
+    color:#ffffff;
+    margin-top:5px;
+    margin-bottom:50px;
+  }
+
+  div.column button.btn.cats:hover{
+    border:0px;
+   }
+
+
+  /*  Forms and Textareas */
+
+
+  textarea.textarea{
+    font-family:'DM sans', sans-serif;
+  }
+
+  textarea.textarea.skypanel{
+    border:2px solid #40C4FF;
+   }
+ 
+   textarea.textarea.skyanel:hover{
+     border:2px solid #40C4FF;
+   }
+
+
+
+  textarea.textarea.greenpanel{
+    border:2px solid #00C853;
+   }
+ 
+   textarea.textarea.greenanel:hover{
+     border:2px solid #00C853;
+   }
+
+
+  textarea.textarea.redpanel{
+    border:2px solid #FF1744;
+   }
+ 
+   textarea.textarea.redpanel:hover{
+     border:2px solid#FF1744;
+   }
+
+  textarea.textarea.bluepanel{
+   border:2px solid #2962FF;
+  }
+
+  textarea.textarea.bluepanel:hover{
+    border:2px solid#2962FF;
+  }
+
+  textarea.textarea.yellowpanel{
+    border:2px solid #FAA613;
+   }
+ 
+   textarea.textarea.yellowpanel:hover{
+     border:2px solid#FAA613;
+   }
+
+
+
+  /*   ----------------------------SNACKBAR--------------------------   */
+  /* The snackbar - position it at the bottom and in the middle of the screen */
+#snackbar {
+  visibility: hidden; /* Hidden by default. Visible on click */
+  min-width: 250px; /* Set a default minimum width */
+  margin-left: -125px; /* Divide value of min-width by 2 */
+  background: #FF416C;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #FF4B2B, #FF416C);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #FF4B2B, #FF416C);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff; /* White text color */
+  text-align: center; /* Centered text */
+  font-family: 'Quicksand', sans-serif; /* Font-family */
+  font-weight: bold; /* Bold Font */
+  border-radius: 5px; /* Rounded borders */
+  padding: 16px; /* Padding */
+  position: fixed; /* Sit on top of the screen */
+  z-index: 1; /* Add a z-index if needed */
+  left: 50%; /* Center the snackbar */
+  bottom: 30px; /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+  visibility: visible; /* Show the snackbar */
+  /* Add animation: Take 0.5 seconds to fade in and out the snackbar. 
+  However, delay the fade out process for 2.5 seconds */
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+
+
+
+/*  H3  */
+div.column h1.h1seo{
+  font-family: 'DM sans', sans-serif;
+  font-weight: bold;
+  margin-bottom:7px;
+  font-size:18px;
+  
+}
+
+
+/* Footer  */
+
+footer.footer{
+  background-color: #222831;
+}
+
+footer.footer p{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size:30px;
+  color:#fff;
+}
+
+footer.footer p b{
+  font-family: 'josefin sans', sans-serif;
+  font-weight: bold;
+  font-size:30px;
+  color:#fff;
+}
