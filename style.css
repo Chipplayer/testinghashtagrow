@@ -137,9 +137,9 @@ a.navbar-item.gradient:hover{
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     font-size: 16px;
-    border-left:3px solid #F8B500;
-    background-color: #F9FD50;
-    color:black;
+    border-left:3px solid #1565C0;
+    background-color: #42A5F5;
+    color:#fff;
     
   }
 
@@ -216,7 +216,7 @@ div.column .hashpanel{
     border:0px;
     color:#ffffff;
     margin-top:5px;
-    margin-bottom:50px;
+    margin-bottom:0px;
   }
   
   div.column button.btn:hover{
@@ -237,7 +237,7 @@ div.column .hashpanel{
     border:0px;
     color:#ffffff;
     margin-top:5px;
-    margin-bottom:50px;
+    margin-bottom:0px;
   }
   
   div.column button.btn:hover{
@@ -256,7 +256,7 @@ div.column .hashpanel{
     border:0px;
     color:#ffffff;
     margin-top:5px;
-    margin-bottom:50px;
+    margin-bottom:0px;
   }
   
   div.column button.btn:hover{
@@ -272,7 +272,7 @@ div.column .hashpanel{
     border:0px;
     color:#ffffff;
     margin-top:5px;
-    margin-bottom:50px;
+    margin-bottom:0px;
   }
 
   div.column button.btn.cats:hover{
@@ -408,13 +408,28 @@ footer.footer{
 footer.footer p{
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
-  font-size:30px;
+  font-size:25px;
   color:#fff;
 }
 
 footer.footer p b{
   font-family: 'josefin sans', sans-serif;
   font-weight: bold;
-  font-size:30px;
+  font-size:25px;
   color:#fff;
+}
+
+
+
+
+/* Shadow Boxes */
+div.shadowed{
+  
+  -moz-box-shadow: 1px 6px 27px 1px rgba(0,0,0,0.57);
+  -webkit-box-shadow: 1px 6px 14px -1px rgba(0,0,0,0.51); 
+box-shadow: 1px 6px 14px -1px rgba(0,0,0,0.51);
+  margin-top:50;
+  margin-bottom:50px;
+  padding:10px;
+  border-radius: 5px;
 }
